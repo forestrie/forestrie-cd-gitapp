@@ -1,7 +1,7 @@
 {
   "name": "forestrie-cd-gitapp",
   "version": "1.0.0",
-  "description": "GitHub App for CD permisions automation",
+  "description": "GitHub App for CD permissions automation",
   "main": "dist/index.js",
   "scripts": {
     "dev": "wrangler dev",

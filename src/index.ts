@@ -65,6 +65,7 @@ async function handleWebhook(
   const event = request.headers.get('x-github-event');
   const deliveryId = request.headers.get('x-github-delivery');
 
+  // Log webhook receipt (deliveryId can help with debugging, but configure log levels appropriately in production)
   console.log(`Received webhook event: ${event} (${deliveryId})`);
 
   try {
