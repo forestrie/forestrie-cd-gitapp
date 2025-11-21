@@ -1,0 +1,25 @@
+{
+  "name": "forestrie-cd-gitapp",
+  "version": "1.0.0",
+  "description": "GitHub App for CD permissions automation",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251121.0",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.50.0"
+  },
+  "dependencies": {
+    "@octokit/app": "^16.1.2",
+    "@octokit/webhooks": "^14.1.3"
+  }
+}
